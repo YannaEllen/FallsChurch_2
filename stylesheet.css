@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+header{
+    background-color: #ffe4c4;
+}
+nav{
+    text-align: center;
+    display: inline-block;
+    background-color: #ffc0cb;
+    width:100%;
+}
+div{
+    background-image: image(spring.jpg); 
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav img{
+    width: 10%;
+}
+main{
+    background-color: #f0ffff;
+}
+footer{
+    background-color: #b8d6b8;
+}
+li{
+    display: inline;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    line-height:150% ;
+    text-align: justify;
+}
+.current{
+    text-transform: uppercase;
+    background-color: bisque;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+div{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
