@@ -10,7 +10,6 @@ nav{
     display: inline-block;
     background-color: #ffc0cb;
     width:100%;
-    background-image: image(spring.jpg);
     height: 150px;
     background-size: cover;
     background-position: center;
@@ -50,3 +49,4 @@ div{
     justify-content: center;
     align-items: center;
 }
+
