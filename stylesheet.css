@@ -10,14 +10,11 @@ nav{
     display: inline-block;
     background-color: #ffc0cb;
     width:100%;
-}
-div img{
+    background-image: image(spring.jpg);
     height: 150px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-nav img{
     width: 10%;
 }
 main{
