@@ -79,3 +79,27 @@ div img {
     display: block;
 }
 
+.main_content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+    width: 100%;
+    align-items: start;
+}
+
+.text-column {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.photo-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.photo-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
